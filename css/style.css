@@ -13,7 +13,7 @@
 --------------------*/
 
 .container{
-    max-width: 1440px;
+    max-width: 1300px;
     margin: auto;
     font-family: 'Montserrat', sans-serif;
 }
@@ -33,7 +33,7 @@
 
 .col{
     float: left;
-    width: calc ( 100% / 3 - 20px );
+    width: calc(100% / 3 - 20px);
     margin: 0 10px;
 }
 
@@ -49,11 +49,12 @@
 .product-discount{
     background-color: red;
     position: absolute;
+    top: 560px;
     left: 0;
-    bottom: 30px;
     color: white;
     font-size: 12px;
     padding: 3px;
+
 }
 
 .product-tag{
@@ -62,8 +63,8 @@
     font-size: 12px;
     padding: 3px;
     position: absolute;
-    bottom: 30px;
-    left: 40px;
+    top: 560px;
+    left: 38px;
 }
 
 .heart{
@@ -73,4 +74,17 @@
     top: 3px;
     font-size: 25px;
     padding: 5px 10px;
+}
+
+h1{
+    font-size: 16px;
+}
+
+.new-price{
+    color: red;
+    font-weight: bold;
+}
+
+.old-price{
+    text-decoration: line-through;
 }
