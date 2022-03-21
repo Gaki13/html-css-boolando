@@ -34,7 +34,7 @@
 .col{
     float: left;
     width: calc(100% / 3 - 20px);
-    margin: 0 10px;
+    margin: 0 10px 30px;
 }
 
 .product{
