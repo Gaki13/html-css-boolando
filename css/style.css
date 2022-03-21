@@ -11,12 +11,57 @@
 /*-------------------
        Commons
 --------------------*/
-body{
+
+.container{
     max-width: 1440px;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
+}
+
+/*-------------------
+       Main
+--------------------*/
+.row{
+    margin-top: 30px;
+}
+
+.col{
+    float: left;
+    width: calc ( 100% / 3 - 20px );
+    margin: 0 10px;
+}
+
+.product{
+    position: relative;
+}
+
+.product img{
+    width: 100%;
+    height: 600px;
+}
+
+.product-discount{
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    color: white;
+    font-size: 12px;
+    padding: 3px;
+}
+
+.product-tag{
+    background-color: #00875a;
+    color: white;
+    font-size: 12px;
+    padding: 3px;
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
 }
